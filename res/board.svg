@@ -1,0 +1,25 @@
+<svg version="1.1" width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+	<rect width="100%" height="100%" fill="0x000000"></rect>
+	<g id="row1">
+		<rect x="0%" y="0%" width="10%" height="10%" fill="red"></rect>
+		<rect x="20%" y="0%" width="10%" height="10%" fill="red"></rect>
+		<rect x="40%" y="0%" width="10%" height="10%" fill="red"></rect>
+		<rect x="60%" y="0%" width="10%" height="10%" fill="red"></rect>
+		<rect x="80%" y="0%" width="10%" height="10%" fill="red"></rect>
+	</g>
+	<g id="row2">
+		<rect x="10%" y="10%" width="10%" height="10%" fill="red"></rect>
+		<rect x="30%" y="10%" width="10%" height="10%" fill="red"></rect>
+		<rect x="50%" y="10%" width="10%" height="10%" fill="red"></rect>
+		<rect x="70%" y="10%" width="10%" height="10%" fill="red"></rect>
+		<rect x="90%" y="10%" width="10%" height="10%" fill="red"></rect>
+	</g>
+	<use href="#row1" y="20%"></use>
+	<use href="#row2" y="20%"></use>
+	<use href="#row1" y="40%"></use>
+	<use href="#row2" y="40%"></use>
+	<use href="#row1" y="60%"></use>
+	<use href="#row2" y="60%"></use>
+	<use href="#row1" y="80%"></use>
+	<use href="#row2" y="80%"></use>
+</svg>
